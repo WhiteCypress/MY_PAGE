@@ -1,0 +1,45 @@
+body {
+    background-color: bisque;
+    font-size: 12pt;
+    font-family: Times New Roman;
+    color: #853d16;
+    line-height: 14pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-top: 5pt;
+}
+h1 {
+    font: 18pt Verdana;
+    font-weight: bold;
+    line-height: 15pt;
+}
+
+p#bibliography{
+    font-size: 12pt;
+    font-family: Arial;
+    color:black;
+    line-height: 14pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    padding-top: 10pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: blueviolet;
+}
+
+a:hover, a:active {
+    color: chartreuse;
+}
+
+footer {
+    font-size: 11pt;
+    font-style: italic;
+    line-height: 12pt;
+    text-align: center;
+    padding-top: 30pt;
+}
