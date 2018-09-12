@@ -9,13 +9,24 @@
     <script>
         now = new Date();
 
-        document.write("<p><strong>Local Time: </strong>" + now.toString() + "</p>");
-        document.write("<p><strong>UTC Time: </strong>" + now.toGMTString() + "</p>");
+        //document.write("<p><strong>Local Time: </strong>" + now.toString() + "</p>");                                 make a real time clock!
+        //document.write("<p><strong>UTC Time: </strong>" + now.toGMTString() + "</p>");
+
+        function seeDiary(){
+            var password = prompt("You have to have the [permission] to read my diary");
+
+            if(password == "password"){
+                document.location = "Diary.html";
+            }else{
+                alert("sorry, that is not correct!");
+            }
+        }
     </script>
 
     <header>
         <h1>
             Zimu's Code Base
+            <a href="#" onclick="seeDiary()"><img height="50px" width="50px" id="logo" src="logo.png"></a>
             <hr />
         </h1>
     </header>
@@ -24,8 +35,23 @@
         <p id="bibliography">
             Hi there, seems like you've spot my secret base down here.<br />
             My name is Zimu Su, a 2nd year Computer Science and Math student in Vanier College, QC, Canada.<br />
-            I like coding and I'd like to get more oppertunities in this domain.
+            I like coding and I'd like to get more oppertunities in this domain
+        </p>
+    </section>
 
+    <h2 id="hobby">
+        <i>My Hobbbies</i>
+    </h2>
+
+    <section>
+        <p id="hobbies">
+            <ul>
+                <li>Biking</li>
+                <li>Vidoe Games</li>
+                <li>Anime</li>
+                <li>Learn languages</li>
+                <li>Coding</li>
+            </ul>
         </p>
     </section>
 

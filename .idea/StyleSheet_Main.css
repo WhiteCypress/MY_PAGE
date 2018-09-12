@@ -8,11 +8,19 @@ body {
     padding-right: 5pt;
     padding-top: 5pt;
 }
+
 h1 {
     font: 18pt Verdana;
     font-weight: bold;
     line-height: 15pt;
 }
+
+h2 {
+    font: 14pt Verdana;
+    font-weight: bold;
+    line-height: 15pt;
+}
+
 
 p#bibliography{
     font-size: 12pt;
