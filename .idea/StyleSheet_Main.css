@@ -1,8 +1,8 @@
 body {
-    background-color: bisque;
+    background-color: #122748;
     font-size: 12pt;
     font-family: Times New Roman;
-    color: #853d16;
+    color: #848e9a;
     line-height: 14pt;
     padding-left: 5pt;
     padding-right: 5pt;
@@ -22,14 +22,18 @@ h2 {
 }
 
 
-p#bibliography{
+p#bibliography {
     font-size: 12pt;
     font-family: Arial;
-    color:black;
+    //color:black;
     line-height: 14pt;
     padding-left: 10pt;
     padding-right: 10pt;
     padding-top: 10pt;
+}
+
+#email {
+    padding: 5px;
 }
 
 a {
@@ -37,11 +41,12 @@ a {
 }
 
 a:link, a:visited {
-    color: blueviolet;
+    color: #ae4bbb;
 }
 
-a:hover, a:active {
-    color: chartreuse;
+#email:hover, #email:active{
+    background-color: #dfdfdf;
+    color: #101f38;
 }
 
 footer {

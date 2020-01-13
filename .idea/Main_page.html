@@ -12,12 +12,12 @@
         //document.write("<p><strong>Local Time: </strong>" + now.toString() + "</p>");                                 make a real time clock!
         //document.write("<p><strong>UTC Time: </strong>" + now.toGMTString() + "</p>");
 
-        function seeDiary(){
+        function seeDiary() {
             var password = prompt("You have to have the [permission] to read my diary");
 
-            if(password == "password"){
+            if (password == "password") {
                 document.location = "Diary.html";
-            }else{
+            } else {
                 alert("sorry, that is not correct!");
             }
         }
@@ -60,7 +60,7 @@
 
 <footer>
     <p id="Pfooter">If any question, please contact me at:</p>
-    <a href="mailto:zimusumtl@gmail.com">zimusumtl@gmail.com</a>
+    <a id="email" href="mailto:zimusumtl@gmail.com">zimusumtl@gmail.com</a>
     <p id="validCSS `">
         <a href="http://jigsaw.w3.org/css-validator/check/referer">
             <img style="border:0;width:88px;height:31px"
