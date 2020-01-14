@@ -1,7 +1,7 @@
 body {
     background-color: #122748;
     font-size: 12pt;
-    font-family: Times New Roman;
+    font-family: 'Lucida Console';
     color: #848e9a;
     line-height: 14pt;
     padding-left: 5pt;
@@ -10,13 +10,13 @@ body {
 }
 
 h1 {
-    font: 18pt Verdana;
+    font: 18pt Lucida Console;
     font-weight: bold;
     line-height: 15pt;
 }
 
 h2 {
-    font: 14pt Verdana;
+    font: 14pt Lucida Console;
     font-weight: bold;
     line-height: 15pt;
 }
@@ -24,7 +24,7 @@ h2 {
 
 p#bibliography {
     font-size: 12pt;
-    font-family: Arial;
+    font-family: 'Lucida Console';
     //color:black;
     line-height: 14pt;
     padding-left: 10pt;
@@ -45,6 +45,7 @@ a:link, a:visited {
 }
 
 #email:hover, #email:active{
+    text-decoration: underline;
     background-color: #dfdfdf;
     color: #101f38;
 }
